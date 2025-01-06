@@ -2,22 +2,40 @@
 
 本仓库包含北京大学国家发展研究院产业组织理论课程的期末考试复习资料。
 
+## 目录结构
+
+- `tex/`: LaTeX源文件目录
+- `pdf/`: 编译生成的PDF文件目录
+- `scripts/`: Python计算脚本目录
+
 ## 文件说明
 
-- `20fall_final.tex`: 2020年秋季学期期末考试题目及答案（LaTeX源文件）
-- `20fall_final.pdf`: 2020年秋季学期期末考试题目及答案（PDF文件）
-- `21fall_final.tex`: 2021年秋季学期期末考试题目及答案（LaTeX源文件）
-- `21fall_final.pdf`: 2021年秋季学期期末考试题目及答案（PDF文件）
-- `23spring_final.tex`: 2023年春季学期期末考试题目及答案（LaTeX源文件）
-- `23spring_final.pdf`: 2023年春季学期期末考试题目及答案（PDF文件）
-- `23fall_final.tex`: 2023年秋季学期期末考试题目及答案（LaTeX源文件）
-- `23fall_final.pdf`: 2023年秋季学期期末考试题目及答案（PDF文件）
+### LaTeX源文件
+- `tex/20fall_final.tex`: 2020年秋季学期期末考试题目及答案
+- `tex/21fall_final.tex`: 2021年秋季学期期末考试题目及答案
+- `tex/23spring_final.tex`: 2023年春季学期期末考试题目及答案
+- `tex/23fall_final.tex`: 2023年秋季学期期末考试题目及答案
+
+### PDF文件
+- `pdf/20fall_final.pdf`: 2020年秋季学期期末考试题目及答案
+- `pdf/21fall_final.pdf`: 2021年秋季学期期末考试题目及答案
+- `pdf/23spring_final.pdf`: 2023年春季学期期末考试题目及答案
+- `pdf/23fall_final.pdf`: 2023年秋季学期期末考试题目及答案
+
+### Python脚本
+`scripts/`目录下包含用于验证计算结果的Python脚本，主要使用sympy进行符号计算。
 
 ## 课程信息
 
 - 课程名称：产业组织理论
 - 开课院系：北京大学国家发展研究院
 - 学期：2020年秋季学期、2021年秋季学期、2023年春季学期、2023年秋季学期
+
+## 使用说明
+
+1. PDF文件可直接查看考试题目和答案
+2. LaTeX源文件需要使用XeLaTeX编译
+3. Python脚本需要安装sympy库才能运行
 
 ## 说明
 
