@@ -1,1 +1,24 @@
- 
+# LaTeX temporary files
+*.aux
+*.log
+*.synctex.gz
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.dvi
+*.bbl
+*.bcf
+*.blg
+*.run.xml
+
+# macOS system files
+.DS_Store
+._*
+
+# Editor backup files
+*~
+*.bak
+*.swp 
